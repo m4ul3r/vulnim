@@ -22,7 +22,7 @@ CREATE TABLE flag (
 );
 
 
-INSERT INTO users (username, password) VALUES ('admin', 'pdkdf2_sha256$secret$24400$ijlubkv426j5l92kH9/xR34S08Yx3nAX5EOI2eTZ3XBSw7tg1URuaB2JlU/NTMqwdJ6dO1ge0FBZGAXMFFuiZA==');
+INSERT INTO users (username, password) VALUES ('admin', 'pdkdf2_sha256$secret$24400$5vFxihhPp7qYTXppAKlJ2wmoOm6743ZU35JMV72AeG2ndnAN6TNJqNnkmPZvkoK4/QYmEG1RqTOIkPaZxCLxWQ==');
 INSERT INTO users (username, password) VALUES ('anonymous', 'anonymous');
 INSERT INTO users (username, password) VALUES ('euRsnLfMAtTYgsMk', 'pdkdf2_sha256$secret$24400$4mmSFd1ksNxlIShNdzhhT8mLOQpSL1E1eUIaLY24X++lZGxODNapR37l8vzckSaJtJf7NcgBXceMr0T2veYL0w==');
 INSERT INTO users (username, password) VALUES ('aEpKlsUkHfpsoAuA', 'pdkdf2_sha256$secret$24400$8WdfAojco4m9NWYrqDCts1aHb2X3MNijSsTAl8c/ZOpupXadvm7O7nlXHE6fBDFQWTmikWsQUoJoYQmRUx3D7g==');
