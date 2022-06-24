@@ -13,22 +13,25 @@ proc sharedNav*(ctx: Context): VNode =
           li: a(href = "/auth/register"): text "Register"
           li: a(href = "/auth/login"): text "Login"
           li: a(href = "/comments"): text "Comments"
-
+          li: a(href = "/api/users"): text "Users"
 
         elif username == "admin":
           li: span: text username
           li: a(href = "/admin/"): text "Admin"
           li: a(href = "/auth/logout"): text "Logout"
           li: a(href = "/comments"): text "Comments"
-
+          li: a(href = "/api/users"): text "Users"
+          li: a(href = "/api/pyRun"): text "pyRun"
+          li: a(href = "/api/viewer"): text "Viewer"
 
         else:
           li: span: text username
           li: a(href = "/auth/logout"): text "Logout"
           li: a(href = "/comments"): text "Comments"
+          li: a(href = "/api/users"): text "Users"
+          li: a(href = "/api/pyRun"): text "pyRun"
+          li: a(href = "/api/viewer"): text "Viewer"
 
 
-      # ul:
-      #   li: a(href = "http://google.com"): text "Google"
-      #   li: a(href = "http://hacker.com"): text "Hacker"
+
   return vNode

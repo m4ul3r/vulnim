@@ -41,7 +41,8 @@ proc commentsPage*(ctx: Context, title: string, cmnts: seq[seq[string]]): string
     head
     nav
     main
-    comments
+    if cmnts.len > 0:
+      comments
     foot
     
   result = "<!DOCTYPE html>\n" & $vNode

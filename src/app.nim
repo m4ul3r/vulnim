@@ -24,4 +24,6 @@ app.addRoute(urls.indexPatterns, "/")
 app.addRoute(urls.authPatterns, "/auth")
 app.addRoute(urls.adminPatterns, "/admin")
 app.addRoute(urls.commentsPatterns, "/comments")
+app.addRoute(urls.apiPatterns, "/api")
+
 app.run()
