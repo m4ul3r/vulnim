@@ -66,7 +66,7 @@ INSERT INTO users (username, password) VALUES ('sxFvbMEkrRPUhiIH', 'pdkdf2_sha25
 INSERT INTO users (username, password) VALUES ('WQnOWsZGULvlupEf', 'pdkdf2_sha256$secret$24400$mWs24ST+Dirp5A0330pZZJ/QQ8Z+rLinhHrRyAH6n6BOkv+AsjrzG10TUXaoHbkCt7UjYd7U0+OcslqcM2TLtA==');
 INSERT INTO users (username, password) VALUES ('rcQwPUjLznCSSDjl', 'pdkdf2_sha256$secret$24400$+1Op2gxQUEpGrjT24pRIRrTnHCODEOrXD2gFsDDv7GeDGFk7pfgffpNIFcvNPpUV9ltEigsU5+jI6LPPpfwcpw==');
 INSERT INTO users (username, password) VALUES ('gLrRWOJoBhOLEhma', 'pdkdf2_sha256$secret$24400$1NDWolDwtn+AR8hYn08UWPKcS0JBEMic96R0lnm0zWUhHUrFVV/Aa5Ka+1TKpEfKOJJFGSXUth2WyD8Lp/naNg==');
-INSERT INTO users (username, password) VALUES ('hcCiItzDteHjpcpV', 'flag{flag3}__$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==');
+INSERT INTO users (username, password) VALUES ('flag{flag4}_____', 'flag{flag3}__$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==');
 INSERT INTO users (username, password) VALUES ('uerGNenEPXQuzxTY', 'pdkdf2_sha256$secret$24400$L6hxdNpttVNuHWampWQ+Dr0PgC+yq+xQHMozpFEPTLeqOkvqoBJdB45yv5uVBwQ3p3n+A+H1JIOW8U6U+DKaSg==');
 INSERT INTO users (username, password) VALUES ('LVxmpzBLEAFoipuD', 'pdkdf2_sha256$secret$24400$BNW8b5sDf7MUILsbM8AtJ9/VGdUVJpYV9oYBJeQ+qHn1tbEMNHhNtAR0W5drskL6bSe4U9wAscQPdHxaLmT2Bw==');
 INSERT INTO users (username, password) VALUES ('dcSjvJSJlCRNqYeO', 'pdkdf2_sha256$secret$24400$9mjxuTzo4JW77+4LMnc3fx+kd+spdE6TJ284GSgDkEUsMfoTtzg+A0PqVy6etVlURfHI7SI5wMXqOWWOhHK28w==');

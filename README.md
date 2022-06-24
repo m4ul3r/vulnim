@@ -8,6 +8,7 @@ To run with docker:
 
 `docker container run -it -p 80:8080 vulnim`
 
+It does take a while to build the image and compile the program (5-10 minutes).
 
 ### Without Docker
 Install depencies:

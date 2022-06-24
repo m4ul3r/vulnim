@@ -13,6 +13,10 @@ proc randomString(): string =
 
 randomize()
 
+var 
+  password = pbkdf2_sha256encode(SecretKey(randomString()), "secret")
+
+
 for i in 0 .. 97:
   var 
     password = pbkdf2_sha256encode(SecretKey(randomString()), "secret")
